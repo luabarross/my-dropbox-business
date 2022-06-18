@@ -1,3 +1,7 @@
+
+const primary = '/Teste';
+const token = 'sl.BJzp1F2XSlWeBOqDajU5pF-iieNfftoJgK5mtZcDG3JIghqFh8GCQhYVp137gSBJLk9hb3Pw5Gs5eVpXI9S4Rm0pPDNizTBHae05d9WsWsbHbvOd-GVrfIHKNoMYBn6Ct18ZTVKFxrQuijU6Kr8';
+
 function formatFileSize( bytes, decimalPoint ) {
 
     if ( bytes == 0 ) return '0 Bytes';

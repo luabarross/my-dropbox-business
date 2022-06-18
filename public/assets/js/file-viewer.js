@@ -10,7 +10,7 @@ const start = async function() {
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer sl.BJyWlmWBaL8r-0ddj_kD4xBiy5eV4tqjJML5x4m47_l4WdKQpwpkBjj3b622FxdzVxI0uzW0Pbqp09IAf_U_OChRzDE3XCc_fDDM1jnNJulHqoAtZCNaKkPZeFD1zqY2LB4dU9IZDNYc9xMz9NI',
+            'Authorization': 'Bearer ' + token,
             'Dropbox-API-Select-User': 'dbmid:AAC56KaXDi-i7Uo_Cz7E_hTfXnlpgY-qCH4'
         },
         body: JSON.stringify( body ),

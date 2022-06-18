@@ -1,7 +1,3 @@
-
-const primary = '/Teste';
-const token = 'sl.BJw8EBtfCY5JZaFedbPDTfWLzneKKPcgnzNsF_Su1r4BySS5EkGiOK2WGSrfmkYLK27J1ZJsvT5dvaqvkXslSBMJaKCtsUVT3yGJojWMEIO94HHfDiMXqxJKF6fTJnjH6Fuim2NCszm2KEH-ymk';
-
 const path = '/' === window.location.pathname ? primary : window.location.pathname;
 
 const body = {
