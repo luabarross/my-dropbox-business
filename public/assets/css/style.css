@@ -1,0 +1,182 @@
+* { padding: 0; margin: 0; }
+body {
+	font-family: system-ui, sans-serif;
+    line-height: 1.5;
+	text-rendering: optimizespeed;
+	background-color: #212121;
+}
+a {
+	color: #82b1ff;
+	text-decoration: none;
+}
+a:hover,
+h1 a:hover {
+	color: #319cff;
+}
+header,
+#summary {
+    margin: 6px 0;
+}
+
+.caminho{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+h1 a {
+	color: #82b1ff;
+	margin: 0 4px;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+h1 a:first-child {
+	margin: 0;
+}
+
+.caminho{
+    width: 100%;
+    color: #6c6b6b;
+}
+
+.meta {
+	font-size: 12px;
+	font-family: Verdana, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.meta-item {
+	margin-right: 1em;
+}
+
+#filter {
+    padding: 4px;
+    background-color: #3a3a3a;
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    outline: none;
+	color: white;
+}
+
+header, main {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 56rem;
+}
+
+main.file {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 70rem;
+}
+
+header.bread {
+    position: relative;
+}
+
+header.bread img {
+    position: absolute;
+    left: -45px;
+	cursor: pointer;
+}
+
+table {
+    position: relative;
+	width: 100%;
+	border-collapse: collapse;
+}
+tr {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+tbody tr:hover {
+	background-color: #424242;
+}
+th,
+td {
+	text-align: left;
+	padding: 10px 2px;  
+}
+.titles {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+    color: #82b1ff;
+}
+
+.modified{
+    text-align: right;
+}
+
+
+.white{
+    color: white;
+}
+
+
+.titles a {
+	color: #82b1ff;
+}
+
+td {
+	white-space: nowrap;
+	 
+}
+
+th .name,
+td .goup {
+	margin-left: 1.75em;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	white-space: nowrap;
+    color: #82b1ff;
+}
+
+.document, .arquivo{
+	margin-right: 5px;
+    width: 20px;
+}
+
+.seta{
+    width: 17px;
+	padding: 4px 2px 0 2px;
+}
+
+.icon {
+	margin-right: 5px;
+}
+
+#loading td {
+	text-align: center;
+}
+
+/* responsividade */
+
+@media (max-width: 600px) {
+ 
+	td:nth-child(2) {
+		width: auto;
+	}
+	.titles:nth-child(3),
+	td:nth-child(3) {
+		padding-right: 5%;
+		text-align: right;
+	}
+	h1 {
+		color:#82b1ff;
+	}
+	h1 a {
+		margin: 0;
+	}
+	#filter {
+		max-width: 100px;
+	}
+}

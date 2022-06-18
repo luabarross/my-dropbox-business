@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>My DropBox Files</title>
+</head>
+<body>
+    <header>
+        <div class="caminho">
+            <div id="summary">My DropBox Files</div>
+        </div>
+    </header>
+    <main>
+        <table id="list">
+            <thead>
+                <tr>
+                    <th><input type="text" placeholder="filter" id="filter" onkeyup="filterTable()"></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="titles">
+                    <td width="60%">
+                        <img src="/assets/img/ordering.png" class="seta">
+                        
+                        <a href="#">
+                            <span class="name">Name</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span>Size</span>
+                        <a href="#"></a>
+                    </td>
+                    <td class="modified">
+                        <span>Modified</span>
+                        <a href="#"></a>
+                    </td>
+                </tr>
+                <tr id="loading">
+                    <td colspan="3" class="white">
+                        carregando conteúdo
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+<script src="/assets/js/date.format.js"></script>
+<script src="/assets/js/folder-list.js"></script>
+<script src="/assets/js/utils.js"></script>
+</html>
