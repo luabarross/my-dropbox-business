@@ -16,7 +16,7 @@ const start = async function() {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
             'Authorization': 'Bearer ' + token,
-            'Dropbox-API-Select-User': 'dbmid:AAC56KaXDi-i7Uo_Cz7E_hTfXnlpgY-qCH4'
+            'Dropbox-API-Select-User': user
         },
         body: JSON.stringify( body ),
     });
